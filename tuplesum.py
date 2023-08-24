@@ -1,4 +1,4 @@
-thistuple =(2,4,3,8,10,9,7)
+thistuple =(2,10,9)
 a=len(thistuple)
 sum1=0
 i=0
