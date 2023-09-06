@@ -1,0 +1,20 @@
+import sqlite3
+con=sqlite3.connect("data.db")
+print("connection established")
+#con.execute("CREATE TABLE employee(employeeId int,Ename varchar(20),DeptId int,Salary int,Dname varchar(20),Dlocation varchar(20))")
+#con.execute("INSERT INTO employee values(1001,'John',2,4000,'IT','New Delhi')")
+#con.execute("INSERT INTO employee values(1002,'Anna',1,3500,'HR','Mumbai')")
+#con.execute("INSERT INTO employee values(1003,'James',1,2500,'HR','Mumbai')")
+#con.execute("INSERT INTO employee values(1004,'David',2,5000,'IT','New Delhi')")
+#con.execute("INSERT INTO employee values(1005,'Mark',2,3000,'IT','New Delhi')")
+#con.execute("INSERT INTO employee values(1006,'Steve',3,4500,'Finance','Mumbai')")
+#con.execute("INSERT INTO employee values(1007,'Alice',3,3500,'Finance','Mumbai')")
+#x=con.execute("SELECT*FROM employee where Dlocation='New Delhi'")
+#x=con.execute("SELECT*FROM employee where salary>=4000")
+#x=con.execute("SELECT Ename FROM employee")
+#x=con.execute("SELECT Ename,Dname FROM employee")
+
+for i in x:
+   print(i)
+con.commit()
+con.close()
